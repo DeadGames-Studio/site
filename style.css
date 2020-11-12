@@ -1,27 +1,37 @@
 
 body{
-    padding-left: 25%;
-    padding-right: 25%;
-
-    background: #000 url(https://i.ibb.co/YR8Bb9k/bckg.png);
+	margin: 0;
+	
+    background-image: linear-gradient(0deg, rgba(255,0,0,0.15) 0%, rgba(0,0,0,0) 100%), url("DeadGamesBG1.png");
     background-attachment: fixed;
 
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 
 #logos{
+	padding-top: 3%;
     text-align: center;
 }
 
 #projects{
-    margin-top: 4%;
+	padding-top: 5%;
+	padding-left: 20%;
+    padding-right: 20%;
+	padding-bottom: 16%;
 }
 
-#footer{
-    position : fixed;
-    bottom : 8%;
+.footer {
+    height: 150px;
+    background-color: rgba(0,0,0,0.75);
+	display: flex;
+}
+
+.footertext{
+	color: white;
+    font-family: 'Press Start 2P', cursive;
+	margin: auto;
 }
 
 .custom_font{

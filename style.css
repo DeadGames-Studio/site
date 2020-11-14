@@ -13,25 +13,42 @@ body{
 #logos{
 	padding-top: 3%;
     text-align: center;
+	width:auto; 
+	max-width:100%; 
+	height:auto;
 }
 
 #projects{
 	padding-top: 5%;
 	padding-left: 20%;
     padding-right: 20%;
-	padding-bottom: 16%;
+	padding-bottom: 70%;
 }
 
 .footer {
+	float: left;
+	width: 100%;
     height: 150px;
     background-color: rgba(0,0,0,0.75);
-	display: flex;
 }
 
-.footertext{
-	color: white;
-    font-family: 'Press Start 2P', cursive;
-	margin: auto;
+#social{
+	float: left;
+	widht: 50%;
+	text-align: left;
+	font-size: 1em;
+	
+	padding-left: 3%;
+	padding-top: 1%;
+}
+
+#right{
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 1em;
+	
+	padding-right: 3%;
 }
 
 .custom_font{
